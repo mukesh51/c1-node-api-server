@@ -1,0 +1,20 @@
+This sample application is developed using node and express frameworks.
+It provides following endpoints :-
+
+GET - /api/movies # To get all movies from movies database
+GET - /api/movies/:id # To get a single movie with specific id
+POST - /api/movies # To create new movies
+PUT - /api/movies/:id # To update movies with specific id
+DELETE - /api/movies/:id # To delete movie with specific id
+
+## To run this application
+
+1. Clone this project and then change directory to that folder and run `npm install`.
+
+2. Run this application on port 5000 using the following command `export PORT 5000`.
+
+3. Once the above command is successfull, run `node server.js` and it should bring up the application.
+   You can test the application using the above end-points. The GET end-points can be accessed via browser.
+   Other end-points (POST, PUT and DELETE), can be tested via PostMan tool or any other application, which is consuming these end-points.
+
+There is a front-application which consumes these API's and can be found here.
