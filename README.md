@@ -1,11 +1,16 @@
 This sample application is developed using node and express frameworks.
 It provides following endpoints :-
 
-GET - /api/movies # To get all movies from movies database
-GET - /api/movies/:id # To get a single movie with specific id
-POST - /api/movies # To create new movies
-PUT - /api/movies/:id # To update movies with specific id
-DELETE - /api/movies/:id # To delete movie with specific id
+### To get all movies from movies database
+* GET    - /api/movies
+### To get a single movie with specific id
+* GET    - /api/movies/:id
+### To create new movies
+* POST   - /api/movies
+### To update movies with specific id
+* PUT    - /api/movies/:id
+### To delete movie with specific id
+* DELETE - /api/movies/:id   
 
 ## To run this application
 
